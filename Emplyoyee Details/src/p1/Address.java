@@ -1,8 +1,8 @@
 package p1;
-public class Address {
+class Address {
 	String hno,stname,city;
 	int pincode;
-	public Address(String hno,String stname,String city,
+	Address(String hno,String stname,String city,
 							int pincode)
 	{
 		this.hno = hno;
@@ -10,7 +10,7 @@ public class Address {
 		this.city = city;
 		this.pincode = pincode;
 	}
-	public void getData()
+	void getData()
 	{
 		System.out.println("Hno: "+hno);
 		System.out.println("Stname: "+stname);
